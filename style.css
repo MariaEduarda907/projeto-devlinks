@@ -29,15 +29,16 @@
 body{
     background: var(--bg-url) no-repeat top center/cover; /*atalho background: color image repeat position/size*/
     font-family:  "Inter", sans-serif;
-    height: 100vh; /* vh - viewport height*/ 
+    height: 100vh; /* vh - viewport height*/
+    
 }
 
 /*container*/
 #container{
     width: 100%;
     max-width: 588px;
-    margin: auto; /*alinhar uma caixa com largura fixa usa-se margin*/
-    padding: 0 24px; /*margin e padding sequencia: top, right, bottom e left*/
+    margin: auto;
+    padding: 0 24px;
 }
 
 /*perfil*/
@@ -169,14 +170,3 @@ footer{
     }
 }
 /*só funciona com meta viewport no html*/
-
-/* animação*/
-@keyframes slide-in{
-    from{left: 0;}
-    to{left: 50%;}
-}
-
-@keyframes slide-back{
-    from{left: 50%;}
-    to{left: 0;}
-}
