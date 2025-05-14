@@ -170,3 +170,14 @@ footer{
     }
 }
 /*só funciona com meta viewport no html*/
+
+/* animação*/
+@keyframes slide-in{
+    from{left: 0;}
+    to{left: 50%;}
+}
+
+@keyframes slide-back{
+    from{left: 50%;}
+    to{left: 0;}
+}
